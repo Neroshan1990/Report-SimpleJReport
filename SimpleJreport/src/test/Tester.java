@@ -57,7 +57,7 @@ public class Tester {
          keyPair.put("discountamount", "Discount\n");
          keyPair.put("amountpayable", "Amount Payable\n" + "实际金额");//
          
-         DatabaseManager db=new DatabaseManager("localhost", "octopus_localshop1", "postgres", "postgres");
+         DatabaseManager db=new DatabaseManager("localhost", "localshop", "postgres", "postgres");
          
          mapper.getDBdataForCrossTable(querySummary, db, keyPair, "promodetail", "promoid", "locationcode");
          ArrayList<Object> datListReport = mapper.fillReportData();
