@@ -12,3 +12,4 @@ SimpleJreport is an open source Framework and API. Which is capable of deliverin
         b. After the calculations the final result can either edit on an exist cell or a new one.
 7. A Column and Row cell can have Sub Cells(Group of cells).
 8. Pivot tables with Multiple Rows and Columns
+9. Add data Multiple Sheets on an Excel File
